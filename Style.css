@@ -1,22 +1,23 @@
 body, html {
     background: linear-gradient(135deg, orange 40%, cyan);
     /* width: 100vh; */
-    height: 100vh;
-    padding: 0;
-    margin: 0;
+    /* height: 100vh; */
+    padding: 5px 10px 5px 15px;
+    margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
-    border: 5px;
+    /* border: 5px;
     border-style: solid;
-    border-color: rgba(12, 4, 90, 0.466);
+    border-color:rgb(252, 17, 0); */
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
 }
 div {
     display: flex;
 }
-pre {
-    font-size: 3vh;
-    width: 100vh;
-    justify-content: center;
-}
+li {
+    font-size: 3.7vh;
+    line-height: 150%;
+} 
+
 .name {
     color: brown;
     display: flex;
@@ -24,10 +25,11 @@ pre {
     justify-content: left;
     font-size: 7vh;
     flex-basis:10px;
-     border: 5px;
+    /* border: 2px;
     border-style: solid;
-    border-color: rgba(12, 4, 90, 0.466);
+    border-color: rgba(12, 4, 90, 0.466); */
 }
+
 .avatar {
     display: flex;
     justify-content: left;
@@ -36,17 +38,29 @@ pre {
 .contacts {
     display: flex;
     justify-content:right;
-    flex-wrap: nowrap;
-    border: 5px;
+    flex-flow: column nowrap;
+    /* border: 5px;
     border-style: solid;
-    border-color: darkred;
-    
+    border-color: darkred; */
 }
+
+.About-me {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 3.7vh;
+    line-height: 150%;
+    justify-content: space-between;
+    align-content: flex-start;
+    /* border: 5px;
+    border-style: solid;
+    border-color: rgba(12, 4, 90, 0.466); */
+}
+
 .skils {
     display: flex;
     justify-content: stretch;
-    border: 5px;
+    /* border: 5px;
     border-style: solid;
     border-color: darkred;
-    
+     */
 }
