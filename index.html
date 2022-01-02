@@ -4,47 +4,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/style.css">
-    <title>CV</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Eugene Savitsky</title>
     
 </head>
 <body>
-    <div class="name">Eugene Savitsky </div>
-   <!-- <img class="avatar" src="/avatar.jpg" alt="avatar"> -->
-   <svg width="150" height="150">
-    <pattern id="pattern" width="100%" height="100%">
-       <image xlink:href="/img/avatar.jpg" width="150" height="150" preserveAspectRatio="xMidYMin slice"></image>
-    </pattern>
-    <circle cx="75" cy="75" r="65" fill="url(#pattern)"></circle>
- </svg>
+    <header>
+        <div class="name">Eugene Savitsky </div>
+        <svg class="avatar" width="150" height="150">
+            <pattern id="pattern" width="100%" height="100%">
+                <image xlink:href="/img/avatar.jpg" alt="Avatar" width="150" height="150" preserveAspectRatio="xMidYMin slice"></image>
+            </pattern>
+            <circle cx="75" cy="75" r="65" fill="url(#pattern)"></circle>
+        </svg>
 
-<div class="contacts"><b>Сontacts</b>
-    <div><i>E-Mail:&thinsp;</i>EugeneSavitsky89@gmail.com</div>
-    <div><i>Vk.com:&thinsp;</i><a href="https://vk.com/vatanab3">Personal page</a> </div>
-</div>
+        <div class="contacts"><b>Contacts:</b>
+            <ul>
+                <li><i>E-Mail:&thinsp;</i>EugeneSavitsky89@gmail.com</li>
+                <li><i>Vk.com:&thinsp;</i><a href="https://vk.com/vatanab3">Personal page</a> </li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <h1>About me:</h1>
+            <p class="About-me">
+                I am a cheerful but responsible person. <br>
+             After receiving higher education in the profession of "Highly Efficient Material Processing Processes".<br>
+             I worked as an Engineer-Constructor. After a while, I began to work as a Foreman of a mechanical workshop,<br>
+             but realized that working with people was not mine.<br>
+             And I started to master programming on machine tools.<br>   
+             For 3 years now I have been working on machines, writing programs in G-cods and in the Sinumerik shell.<br>
+             Now I want to learn something new, that's why I started learning JS/FRONT-END.
+            </p>
+        <h2 class="skills">Skills:</h2>
+            <ul><li>Quick self-study</li>
+                <li>Communicability</li>
+                <li>KOMPAS 3D</li>
+                <li>Programming in the Sinumerik shell</li>
+            </ul>
 
-<h2>About me:</h2>
-    <p class="About-me">
-        I am a cheerful but responsible person. <br>
-        After receiving higher education in the profession of "Highly Efficient Material Processing Processes".<br>
-        I worked as an Engineer-Constructor. After a while, I began to work as a Foreman of a mechanical workshop,<br>
-        but realized that working with people was not mine.<br>
-        And I started to master programming on machine tools.<br>   
-        For 3 years now I have been working on machines, writing programs in G-cods and in the Sinumerik shell.<br>
-        Now I want to learn something new, that's why I started learning JS/FRONT-END.
-    </p>
-<h2 class="skils">Skils:</h2>
-    <ul><li>Quick self-study</li>
-        <li>Communicability</li>
-        <li>KOMPAS 3D</li>
-        <li>Programming in the Sinumerik shell</li>
-    </ul>
-
-<h2>Eanglish level: B1</h2>
-<ul>
-    <li>Studied at: <img src="/img/light-english.jpg" alt="Light English" width="70" height="35"></li>
-    <li>Practiced in Greece and Lithuania</li>
-</ul>
-
+        <h2>Eanglish level: B1</h2>
+            <ul>
+                <li>Studied at: <img src="/img/light-english.jpg" alt="Light English" width="70" height="35"></li>
+                <li>Practiced in Greece and Lithuania</li>
+            </ul>
+    </main>
+    <footer>
+        <nav>
+            <details>
+            <summary>Useful links</summary>
+                <a href="https://github.com/EugeneSavitsky"><img src="./img/github-icon.png" width="50" height="50" alt="GitHub"></a>2022
+                <a href="https://rs.school/js/"><img src="./img/rs_school_js.png" width="150" height="50" alt="GitHub"></a>
+            </details>
+        </nav>  
+    </footer>
 </body>
 </html>
