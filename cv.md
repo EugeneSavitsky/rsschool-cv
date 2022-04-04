@@ -3,7 +3,7 @@
 
 ** contacts **  *e-m@il*: eugenesavitsky89@gmail.com
  *vk.com*: <https://vk.com/vatanab3>
- *GitHub:* <https://eugenesavitsky.github.io>
+ *GitHub:* <https://github.com/EugeneSavitsky>
 
 
 ## About me:
